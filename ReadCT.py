@@ -4,7 +4,7 @@ from datetime import datetime
 import csv
 
 class MCP3008Current:
-    VREF = 4.4
+    VREF = 5.0
     CURRENT_FACTOR = 10.0
 
     def __init__(self, channel):
